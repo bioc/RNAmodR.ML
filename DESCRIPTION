@@ -1,8 +1,8 @@
 Package: RNAmodR.ML
 Type: Package
 Title: Detecting patterns of post-transcriptional modifications using machine learning
-Version: 1.2.0
-Date: 2020-01-27
+Version: 1.2.1
+Date: 2020-08-01
 Authors@R: c(person("Felix G.M.",
                     "Ernst", 
                     email = "felix.gm.ernst@outlook.com", 
@@ -26,7 +26,6 @@ Depends:
     RNAmodR
 Imports:
     methods,
-    assertive,
     BiocGenerics,
     S4Vectors,
     IRanges,
@@ -53,7 +52,8 @@ Collate:
     'ModifierMLkeras-class.R'
     'ModifierMLranger-class.R'
     'RNAmodR.ML.example.R'
-RoxygenNote: 7.0.2
+    'utils.R'
+RoxygenNote: 7.1.1
 VignetteBuilder: knitr
 BugReports: https://github.com/FelixErnst/RNAmodR.ML/issues
 URL: https://github.com/FelixErnst/RNAmodR.ML
